@@ -8,8 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1> List of Employees </h1>
-	<h2> JAVA - Developing a database web application using Spring MVC and Mybatis/iBatis</h2>
+	<h1> List of Runners </h1>
+	<h2> JAVA - Developing a database web application using Spring MVC and Mybatis</h2>
 	<button onclick="window.location.href='showFormForAddEmployee'">Add Runner</button>
 	<div>
 		<table border="1">
