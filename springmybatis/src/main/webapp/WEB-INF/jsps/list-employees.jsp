@@ -10,7 +10,7 @@
 <body>
 	<h1> List of Employees </h1>
 	<h2> JAVA - Developing a database web application using Spring MVC and Mybatis/iBatis</h2>
-	<button onclick="window.location.href='showFormForAddEmployee'">Add Employee</button>
+	<button onclick="window.location.href='showFormForAddEmployee'">Add Runner</button>
 	<div>
 		<table border="1">
 			<tr bgcolor="lightblue">
