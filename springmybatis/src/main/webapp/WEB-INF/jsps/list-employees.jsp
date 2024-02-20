@@ -5,12 +5,52 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>List of employees</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-	<h1> List of Runners </h1>
-	<h2> JAVA - Developing a database web application using Spring MVC and Mybatis</h2>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-primary bg-primary">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">Seguridad</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	      <div class="navbar-nav">
+	        <a class="nav-link active" aria-current="page" href="#">Home</a>
+	        <a class="nav-link" href="#">Maestros</a>
+	        <a class="nav-link" href="#">Procesos</a>
+	        <a class="nav-link disabled" aria-disabled="true">Reportes</a>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+			
+			</div>
+			<div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+			
+			</div>
+		</div>
+	</div> 
+	<div class="container">
+	<div class="row"> 
+		<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+			<h5> JC TECHNOLOGIES</h5>
+		</div>
+		<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+			<h5 align="center"> List of employees</h5>
+			<h5 align="center"> JAVA - Spring MVC and Mybatis</h5>
+		</div>		
+		<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+			<h5 align="center"> @JDHC</h5>
+		</div>		
+			
+	</div>
+	
 	<button onclick="window.location.href='showFormForAddEmployee'">Add Runner</button>
 	<div>
 		<table border="1">
@@ -48,7 +88,7 @@
 			</c:forEach>
 		</table>
 	</div>
-	
+	</div>
 	  
 </body>
 <p>
