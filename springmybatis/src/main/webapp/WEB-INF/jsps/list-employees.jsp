@@ -45,15 +45,15 @@
 			<h5 align="center"> List of employees</h5>
 			<h5 align="center"> JAVA - Spring MVC and Mybatis</h5>
 		</div>		
-		<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+		<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4" align="right">
 			<h5 align="center"> @JDHC</h5>
+			<button class="btn btn-success" align="center" onclick="window.location.href='showFormForAddEmployee'">Nuevo</button>
 		</div>		
 			
 	</div>
 	
-	<button onclick="window.location.href='showFormForAddEmployee'">Add Runner</button>
-	<div>
-		<table border="1">
+	<div style="line-height: 0.75" align="left" >
+		<table class="table table-striped table-bordered" >
 			<tr bgcolor="lightblue">
 				<th> N° </th>
 				<th> Full Name </th>
@@ -62,6 +62,7 @@
 				<th> Hobbies</th>
 				<th> Country</th>
 				<th> Address</th>
+				<th> Action</th>
 				<th> Action</th>
 			</tr>
 			<c:forEach items="${listemployees}" var="e">
@@ -81,9 +82,10 @@
 					<td>${e.hobbies}</td>
 					<td>${e.country}</td>
 					<td>${e.address}</td>
+					<td><a href="${updateLink}">Update</a></td>
 					<td>
-					<a href="${updateLink}">Update</a>
-					<a href="${deleteLink}" onclick="if(!(confirm('Are you sure want to delete this record?'))) return false;">Delete</a></td>
+					<a href="${deleteLink}" onclick="if(!(confirm('Are you sure want to delete this record?'))) return false;">Delete</a>
+					</td>
 				</tr>
 			</c:forEach>
 		</table>
